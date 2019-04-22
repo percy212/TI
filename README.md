@@ -6,6 +6,6 @@ truncatedSVD
  
 PCA
 
- 행렬 A에서 평균을 빼서 A_cen 행렬을 만든 다음 numpy.linalg.svd를 이용해서 얻은 V를 얻는다.
+ 행렬 A에서 평균을 빼서 A_cen 행렬을 만든 다음 numpy.linalg.svd를 이용해서 V를 얻는다.
  이는 A의 공분산 행렬의 eigenvector 행렬이 된다. -> Cov(X,Y) = E((X-μ)(Y-υ))
  이 V를 입력받은 t에 맞게 수정해서 PCV를 리턴한다.
