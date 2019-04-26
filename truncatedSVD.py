@@ -1,8 +1,14 @@
 import numpy as np
 
 def truncatedSVD(A,t):
-    U,D,Vt = np.linalg.svd(A)
     m, n = A.shape
+
+    if t > n :
+        print("You Entered Higher Dimension")
+        print("Returned Zeros")
+        return 0, 0, 0
+        
+    U,D,Vt = np.linalg.svd(A)
 
     trunc_U = np.zeros((m,t))
     trunc_D = np.zeros((t,t))
