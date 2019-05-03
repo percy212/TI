@@ -4,14 +4,14 @@ def truncated_svd(a,t):
     """ Returns truncatedSVD result matrices
 
     When t is larger than original dimension,
-    return zeros
-    
+    returns zeros
+
     Parameters
     ---------
     a : numpy.ndarray (2D)
         matrix to be decomposed
     t : int
-        dimension to reduce
+        reduced dimension
 
     Returns
     ---------
