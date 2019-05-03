@@ -3,10 +3,8 @@ import numpy as np
 def truncated_svd(a,t):
     """ Returns truncatedSVD result matrices
 
-
     When t is larger than original dimension,
     return zeros
-
     
     Parameters
     ---------
