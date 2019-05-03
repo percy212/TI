@@ -3,7 +3,7 @@ truncated_svd
 
  행렬 a(mxn)와 자연수 t를 입력받고, t가 a의 n보다 클 경우 오류메시지를 출력하고 0 세 개를 반환한다.
  a <= n일 때는 행렬 a를 numpy.linalg.svd() 라이브러리 함수를 이용해서 svd를 한 다음
- 입력 받은 t에 맞게 u와 s, vt를 수정한 trunc_u, trunc_d, trunc_vt를 반환하는 함수.
+ 입력 받은 t에 맞게 u와 s, vt를 수정한 trunc_u, trunc_s, trunc_vt를 반환하는 함수.
  
 pca
 
