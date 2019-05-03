@@ -1,11 +1,11 @@
 # -TI
-truncatedSVD
+truncated_svd
 
  행렬 A(mxn)와 자연수 t를 입력받고, t가 A의 n보다 클 경우 오류메시지를 출력하고 0 세 개를 반환한다.
  A <= n일 때는 행렬 A를 numpy.linalg.svd() 라이브러리 함수를 이용해서 svd를 한 다음
  입력 받은 t에 맞게 U와 D, V를 수정한 trunc_U, trunc_D, trunc_V를 반환하는 함수.
  
-PCA
+pca
 
  행렬 A(mxn)와 자연수 t를 입력받고, t가 A의 n보다 클 경우 오류메시지를 출력하고 0 을 반환한다.
  행렬 A에서 평균을 빼서 A_cen 행렬을 만든 다음 numpy.linalg.svd를 이용해서 V를 얻는다.
